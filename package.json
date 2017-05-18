@@ -15,6 +15,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "start": "npm run build && node index.js"
+    "start3": "npm run build && node index.js",
+    "web": "npm install -g serve && npm run build && serve -s build"
   }
 }
